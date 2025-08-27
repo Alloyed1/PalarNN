@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://palar-nn.ru/sitemap.xml
+
+# Crawl-delay для уважительного скрапинга
+Crawl-delay: 1
+
+# Запрет доступа к служебным файлам
+Disallow: /sw.js
+Disallow: /manifest.json
+Disallow: /robots.txt
